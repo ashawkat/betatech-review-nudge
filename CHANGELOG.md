@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Fixed: the "Rate ★" plugin action link double-escaped its star character through `esc_html()`, displaying the raw `&#9733;` entity. Uses a literal UTF-8 star now.
+
 ## 1.0.0
 
 - Initial release: single-file WordPress.org review prompt — dismissable admin notice, quiet footer prompt on the host plugin's screens, and a "Rate ★" plugin action link.
