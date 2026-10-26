@@ -1,0 +1,14 @@
+{
+    "name": "betatech/review-nudge",
+    "description": "Single-file WordPress.org review prompt library for Betatech plugins.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "classmap": [
+            "review-nudge.php"
+        ]
+    }
+}
